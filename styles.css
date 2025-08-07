@@ -915,8 +915,8 @@ footer a:hover {
         width: 100%;
     }
     .first-container {
-        background-image: url(./assets/hero-bg-tablet.jpg);
-        height: 100vh;
+        background-image: url(./assets/hero-bg-tab.jpg);
+        height: 90vh;
         justify-content: end;
     }
     .description {
