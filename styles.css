@@ -916,7 +916,7 @@ footer a:hover {
     }
     .first-container {
         background-image: url(./assets/hero-bg-tablet.jpg);
-        height: 55vh;
+        height: 100vh;
         justify-content: end;
     }
     .description {
