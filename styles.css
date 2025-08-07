@@ -252,6 +252,7 @@ h1 {
     width: 100%;
     height: auto;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .work {
@@ -752,9 +753,7 @@ footer {
 
 footer p > a {
     color: #ee8606;
-    font-weight: 700;
     text-decoration: none;
-    font-size: 20px;
 }
 
 footer a:hover {
@@ -1127,7 +1126,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 416px) and (min-width: 351px) {
     body {
         width: 100%;
         height: auto;
@@ -1152,6 +1151,7 @@ footer a:hover {
         height: 75px;
     }
     #name {
+        font-size: 36px;
         margin: 0px;
     }
     .mobile-layout-icon {
@@ -1197,18 +1197,18 @@ footer a:hover {
         gap: 0px;
     }
     .first-container h1 {
-        font-size: 40px;
+        font-size: 34px;
         margin: 0px;
         height: fit-content;
     }
     .first-container h2 {
-        font-size: 32px;
+        font-size: 30px;
         margin: 0px;
         height: fit-content;
         line-break: normal;
     }
     .first-container h2 > span {
-        font-size: 34px;
+        font-size: 30px;
         color: hsl(48, 100%, 93%);
     }
     .second-container {
@@ -1244,6 +1244,156 @@ footer a:hover {
     }
     .two-layout-resume {
         grid-template-columns: auto;
+    }
+    .project-container {
+        padding: 15px;
+    }
+    .achievement-container {
+        grid-template-columns: auto;
+        padding: 0px;
+    }
+    .connect {
+        grid-template-columns: auto;
+    }
+    .direct-contact h3, .direct-contact .description {
+        grid-column: 1 / 2;
+    }
+    form {
+        padding: 10px;
+    }
+    .direct-contact {
+        padding: 10px;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 356px) {
+    body {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    .profile {
+        flex-direction: row;
+    }
+    .profile-details {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    }
+    .profile-photo {
+        width: 50px;
+        height: 50px;
+    }
+    #name {
+        margin: 0px;
+        font-size: 30px;
+    }
+    .mobile-layout-icon {
+        display: flex;
+    }
+    .close-icon {
+        display: none;
+    }
+    .social-contact {
+        display: none;
+    }
+    .menu {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        display: none;
+    }
+    .menu-option {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        justify-content: center;
+        border-bottom: 1px solid slategrey;
+    }
+    .menu-option img {
+        display: none;
+    }
+    .main-container {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .first-container {
+        background-image: url(./assets/hero-bg-mobile.jpg);
+        height: 40vh;
+        justify-content: end;
+        gap: 0px;
+    }
+    .first-container h1 {
+        font-size: 30px;
+        margin: 0px;
+        height: fit-content;
+    }
+    .first-container h2 {
+        font-size: 26px;
+        margin: 0px;
+        height: fit-content;
+        line-break: normal;
+    }
+    .first-container h2 > span {
+        font-size: 26px;
+        color: hsl(48, 100%, 93%);
+    }
+    .second-container {
+        gap: 0px;
+    }
+    .sub-title {
+        width: 100%;
+        text-align: center;
+    }
+    .description {
+        text-wrap: pretty;
+        line-height: 20px;
+    }
+    .profile-data {
+        grid-template-columns: auto;
+    }
+    .photo {
+        width: 75%;
+    }
+    .work {
+        padding: 0px;
+    }
+    .work h3 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 25px
+    }
+    .personal-data {
+        grid-template-columns: auto;
+    }
+    .skill-container {
+        grid-template-columns: auto;
+    }
+    .fourth-container {
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .two-layout-resume {
+        grid-template-columns: auto;
+    }
+    .fav-quote {
+        padding: 5px;
+        box-sizing: border-box;
     }
     .project-container {
         padding: 15px;
