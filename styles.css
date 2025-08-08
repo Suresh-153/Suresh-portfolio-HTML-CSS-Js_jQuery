@@ -1342,7 +1342,7 @@ footer a:hover {
     }
     .hero-bg-desk {
         width: 150%;
-        height: 60vh;
+        height: 50vh;
     }
     .first-container {
         position: absolute;
@@ -1468,13 +1468,16 @@ footer a:hover {
     }
     .menu-option {
         width: 100%;
-        height: auto;
+        height: fit-content;
         box-sizing: border-box;
         justify-content: center;
         border-bottom: 1px solid slategrey;
     }
     .menu-option img {
         display: none;
+    }
+    .menu-option p {
+        margin: 8px;;
     }
     .main-container {
         margin: 0px;
@@ -1492,11 +1495,11 @@ footer a:hover {
     }
     .hero-bg-desk {
         width: 155%;
-        height: 65vh;
+        height: 45vh;
     }
     .first-container {
         position: absolute;
-        bottom: 40%;
+        bottom: 55%;
         height: auto;
         justify-content: end;
         gap: 0px;
